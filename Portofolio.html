@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Taramini Clément</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link"><i class="fas fa-home"></i> Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#a-propos" class="nav-link"><i class="fas fa-user"></i> À Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#parcours" class="nav-link"><i class="fas fa-graduation-cap"></i> Parcours</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projets" class="nav-link"><i class="fas fa-code"></i> Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#veille" class="nav-link"><i class="fas fa-search"></i> Veille</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#competences" class="nav-link"><i class="fas fa-tools"></i> Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#epreuve-e4" class="nav-link"><i class="fas fa-graduation-cap"></i> Épreuve E4</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">TARAMINI CLÉMENT</h1>
+                <h2 class="hero-subtitle">BIENVENUE SUR MON PORTFOLIO</h2>
+                <p class="hero-description">Développeur Web Junior passionné par les nouvelles technologies</p>
+                <div class="hero-buttons">
+                    <a href="taramini-clement-cv-4.pdf" download="CV_Taramini_Clement.pdf" class="btn-hero primary">Mon CV</a>
+                    <a href="#contact" class="btn-hero secondary">Me Contacter</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="a-propos" class="section">
+            <div class="container">
+                <h2 class="section-title">À Propos 🗨️</h2>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Présentation</h3>
+                        <p>Salut, moi c'est <strong>Clément TARAMINI</strong> 👋</p>
+                        <p>Je suis actuellement étudiant en <strong>développement web</strong> et passionné par les technologies modernes 💻</p>
+                        <p>Actuellement toujours en cours d'études 🎓, je vous propose sur ce portfolio de retrouver ci-dessous les différents projets professionnels que j'ai pu entreprendre au sein de ma formation.</p>
+                        <p>Vous retrouverez ci-dessous mon CV ainsi que mes différents projets 👨‍💻</p>
+                        
+                        <div class="about-buttons">
+                            <a href="taramini-clement-cv-4.pdf" download="CV_Taramini_Clement.pdf" class="btn-download">CV 📄</a>
+                            <button class="btn-secret" onclick="alert('🎉 Félicitations ! Vous avez trouvé le bouton secret ! 🎉\\n\\nMerci de visiter mon portfolio !')">Un bouton secret ???</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formation-info">
+                    <h3>Qu'est-ce que le <strong>Développement Web 🎓</strong> ?</h3>
+                    <p>Avant de commencer à parler de moi, je vous propose de présenter en premier lieu ma filière dont je suis spécialisé</p>
+                    
+                    <p>Le développement web consiste à créer des sites internet et des applications web en utilisant différents langages de programmation et technologies modernes.</p>
+                    
+                    <div class="specializations">
+                        <div class="spec">
+                            <h4>Option <strong>FRONT-END</strong></h4>
+                            <p>Le développement front-end concerne tout ce que l'utilisateur voit et avec quoi il interagit sur un site web (interface utilisateur, design, expérience utilisateur).</p>
+                            <p>Les développeurs front-end peuvent accéder aux métiers de :</p>
+                            <ul>
+                                <li>Développeur Front-End</li>
+                                <li>Intégrateur Web</li>
+                                <li>Développeur React/Angular/Vue</li>
+                                <li>UI/UX Developer</li>
+                                <li>Développeur Mobile</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="spec">
+                            <h4>Option <strong>BACK-END</strong></h4>
+                            <p class="chosen">👈 <em>(la spécialité que j'ai choisie)</em></p>
+                            <p>Le développement back-end concerne la partie serveur, les bases de données et toute la logique métier qui fait fonctionner une application web.</p>
+                            <p>Les développeurs back-end sont préparés aux métiers de :</p>
+                            <ul>
+                                <li>Développeur Back-End</li>
+                                <li>Développeur Full-Stack</li>
+                                <li>Architecte logiciel</li>
+                                <li>Administrateur de base de données</li>
+                                <li>DevOps Engineer</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="section">
+            <div class="container">
+                <h2 class="section-title">Mes Compétences 👨‍💻</h2>
+                <p class="section-description">Toutes ces connaissances ont été acquises durant mes études et par ma propre initiative en essayant de mettre en place des solutions.</p>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Développement</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Outils / Logiciels</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>VS Code</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-terminal"></i>
+                                <span>Terminal</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-cursor"></i>
+                                <span>Cursor</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-adobe"></i>
+                                <span>Adobe Suite</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Analyse de Données </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python Data</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Pandas</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Matplotlib</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Machine Learning</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-table"></i>
+                                <span>Data Visualization</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-calculator"></i>
+                                <span>NumPy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="parcours" class="section">
+            <div class="container">
+                <h2 class="section-title">Mon Parcours 🤵</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - Présent</div>
+                        <div class="timeline-content">
+                            <h3>Développeur Web Junior</h3>
+                            <h4>Formation en Développement Web Ecole IPPSI</h4>
+                            <p><strong>Actuellement en formation pour devenir développeur web full-stack</strong></p>
+                            <p>Apprentissage des technologies modernes : HTML5, CSS3, JavaScript, PHP, Python, bases de données</p>
+                            <a href="#competences" class="btn-small">Plus d'infos</a>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h3>Formation Analyse de Données</h3>
+                            <h4>Databird - Data Analysis</h4>
+                            <p><strong>Formation spécialisée en analyse de données et visualisation</strong></p>
+                            <p>Apprentissage de Python pour l'analyse de données, manipulation de datasets, création de visualisations et introduction au machine learning</p>
+                            <a href="#competences" class="btn-small">Voir les compétences</a>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023</div>
+                        <div class="timeline-content">
+                            <h3>Projets Personnels</h3>
+                            <h4>Développement autodidacte</h4>
+                            <p><strong>Début de mon apprentissage en développement web</strong></p>
+                            <p>Création de mes premiers sites web et applications</p>
+                            <a href="#projets" class="btn-small">Voir mes projets</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="section">
+            <div class="container">
+                <h2 class="section-title">Projets 🚧</h2>
+                <p class="section-description">Ci-dessous vous retrouverez tous mes projets réalisés à ce jour, cliquez sur l'un de mes projets pour en savoir plus !</p>
+                
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">Tous mes projets réalisés 📁</button>
+                    <button class="filter-btn" data-filter="web">Site Internet</button>
+                    <button class="filter-btn" data-filter="app">Application Web</button>
+                    <button class="filter-btn" data-filter="script">Script</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="images/portofolio.png" alt="Portfolio Personnel">
+                        </div>
+                        <div class="project-content">
+                            <h3>SITE INTERNET - Portfolio Personnel</h3>
+                            <p class="project-date">Janvier 2024</p>
+                            <p class="project-tech"><strong>Langages : HTML, CSS, JavaScript</strong></p>
+                            <p>Création de mon portfolio personnel moderne et responsive avec des animations CSS et JavaScript</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="app">
+                        <div class="project-image">
+                            <img src="images/Heracles.png" alt="Application Heracles Asset">
+                        </div>
+                        <div class="project-content">
+                            <h3>APPLICATION WEB - Heracles Asset</h3>
+                            <p class="project-date">Décembre 2023</p>
+                            <p class="project-tech"><strong>Langages : PHP, MySQL, CSS, JavaScript</strong></p>
+                            <p>Application de gestion de fichiers multimédias type Google Drive, spécialisée pour les agences de publicité. Permet le stockage, l'organisation et le partage de fichiers vidéo et photo avec interface intuitive et gestion des permissions utilisateurs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="script">
+                        <div class="project-image">
+                            <img src="images/Databird.png" alt="Projet Databird ESG">
+                        </div>
+                        <div class="project-content">
+                            <h3>PROJET DATABIRD - Analyse des impacts des notations ESG</h3>
+                            <p class="project-date">Novembre 2023</p>
+                            <p class="project-tech"><strong>Langages : Python, Pandas, Matplotlib</strong></p>
+                            <p>Projet d'analyse de données dans le cadre de la formation Databird. Étude des corrélations entre les notations ESG (Environnementales, Sociales et de Gouvernance) et les performances financières des entreprises. Utilisation de Python pour le traitement de datasets, création de visualisations et modélisation statistique.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="veille" class="section">
+            <div class="container">
+                <h2 class="section-title">Veille Technologique 📔</h2>
+                
+                <div class="veille-intro">
+                    <h3>Qu'est-ce que la veille technologique ?</h3>
+                    <p>La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions techniques, les innovations dans un secteur d'activité donné. La veille technologique comprend notamment la surveillance, la collecte, le partage et la diffusion d'information permettant d'anticiper ou de s'informer sur des changements en matière de recherche, développement, nouveaux produits, technologies émergentes, etc... Cela a pour but d'évaluer l'impact sur l'environnement et l'organisation.</p>
+                </div>
+
+                <div class="veille-tools">
+                    <h3>Les principaux outils de ma veille</h3>
+                    <p>J'effectue ma veille technologique grâce aux newsletters telles que <strong>Feedly</strong> (un agrégateur de flux RSS), <strong>Dev.to</strong> pour les actualités développement, et <strong>GitHub Trending</strong> pour suivre les projets open source populaires. En plus des informations fournies chaque semaine/mois, j'ai quelques sites en favoris permettant de me tenir au courant des dernières actualités tel que <strong>Stack Overflow</strong> pour les discussions techniques, ou encore <strong>Mozilla Developer Network</strong> pour les standards web.</p>
+                </div>
+
+                <div class="veille-subject">
+                    <h3>Sujet de ma veille</h3>
+                    <p>Pour la veille technologique, j'ai décidé de traiter sur le sujet de l'<strong>Intelligence Artificielle dans le développement web</strong>, ma thématique est :</p>
+                    <div class="main-theme">
+                        <h4>🤖 "Quel est l'impact de l'Intelligence Artificielle sur le développement web moderne ?"</h4>
+                    </div>
+                    <p>Afin de répondre à cette thématique, ma veille se repose sur 3 différents thèmes :</p>
+                </div>
+
+                <div class="veille-themes">
+                    <div class="theme-section">
+                        <div class="theme-header" onclick="toggleTheme('theme1')">
+                            <h4>🎯 Thème 1 : L'IA comme assistant de développement</h4>
+                            <span class="theme-toggle">+</span>
+                        </div>
+                        <div class="theme-content" id="theme1">
+                            <div class="veille-articles">
+                                <article class="veille-article">
+                                    <h5>GitHub Copilot et l'assistance au code</h5>
+                                    <p>GitHub Copilot révolutionne la façon dont les développeurs écrivent du code en suggérant des lignes entières et des fonctions basées sur le contexte. Cette IA transforme la productivité des développeurs en automatisant les tâches répétitives et en aidant à résoudre des problèmes complexes.</p>
+                                    <p class="article-source"><strong>Source :</strong> GitHub</p>
+                                </article>
+
+                                <article class="veille-article">
+                                    <h5>Cursor : L'éditeur de code assisté par IA</h5>
+                                    <p>Cursor représente une nouvelle génération d'éditeurs de code intégrant l'IA directement dans l'interface de développement. Il permet une collaboration naturelle entre le développeur et l'intelligence artificielle pour accélérer le processus de création.</p>
+                                    <p class="article-source"><strong>Source :</strong> Cursor</p>
+                                </article>
+
+                                <article class="veille-article">
+                                    <h5>L'IA dans le debugging et l'optimisation de code</h5>
+                                    <p>Les outils d'IA modernes peuvent analyser le code pour identifier les bugs, suggérer des optimisations de performance et même prédire les erreurs potentielles avant qu'elles ne se produisent en production.</p>
+                                    <p class="article-source"><strong>Source :</strong> Stack Overflow</p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="theme-section">
+                        <div class="theme-header" onclick="toggleTheme('theme2')">
+                            <h4>🔮 Thème 2 : L'IA générative dans le développement web</h4>
+                            <span class="theme-toggle">+</span>
+                        </div>
+                        <div class="theme-content" id="theme2">
+                            <div class="veille-articles">
+                                <article class="veille-article">
+                                    <h5>ChatGPT et la génération de code automatique</h5>
+                                    <p>ChatGPT et d'autres IA génératives permettent aux développeurs de créer rapidement des prototypes, générer du code boilerplate et même créer des applications complètes à partir de descriptions en langage naturel.</p>
+                                    <p class="article-source"><strong>Source :</strong> OpenAI</p>
+                                </article>
+
+                                <article class="veille-article">
+                                    <h5>L'IA dans la création d'interfaces utilisateur</h5>
+                                    <p>Des outils comme Framer AI et Figma AI permettent de générer automatiquement des designs d'interface à partir de descriptions textuelles, révolutionnant le processus de création UI/UX.</p>
+                                    <p class="article-source"><strong>Source :</strong> Framer</p>
+                                </article>
+
+                                <article class="veille-article">
+                                    <h5>Génération automatique de tests unitaires</h5>
+                                    <p>L'IA peut maintenant générer automatiquement des tests unitaires complets, améliorer la couverture de code et identifier les cas de test manqués, réduisant considérablement le temps de développement.</p>
+                                    <p class="article-source"><strong>Source :</strong> Jest AI</p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="theme-section">
+                        <div class="theme-header" onclick="toggleTheme('theme3')">
+                            <h4>🚀 Thème 3 : L'avenir de l'IA dans le développement web</h4>
+                            <span class="theme-toggle">+</span>
+                        </div>
+                        <div class="theme-content" id="theme3">
+                            <div class="veille-articles">
+                                <article class="veille-article">
+                                    <h5>L'IA No-Code et Low-Code</h5>
+                                    <p>Les plateformes no-code alimentées par l'IA permettent de créer des applications web complexes sans connaissances en programmation, démocratisant le développement web.</p>
+                                    <p class="article-source"><strong>Source :</strong> Webflow</p>
+                                </article>
+
+                                <article class="veille-article">
+                                    <h5>L'IA dans l'optimisation SEO automatique</h5>
+                                    <p>Les outils d'IA peuvent maintenant analyser et optimiser automatiquement le SEO des sites web, suggérer des améliorations de contenu et prédire les tendances de recherche.</p>
+                                    <p class="article-source"><strong>Source :</strong> Google AI</p>
+                                </article>
+
+                                <article class="veille-article">
+                                    <h5>Développement web autonome par l'IA</h5>
+                                    <p>Les recherches actuelles explorent la possibilité d'une IA capable de développer entièrement des applications web de manière autonome, depuis l'analyse des besoins jusqu'au déploiement.</p>
+                                    <p class="article-source"><strong>Source :</strong> MIT Technology Review</p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="veille-conclusion">
+                    <h3>💡 Conclusion de ma veille</h3>
+                    <p>L'intelligence artificielle transforme radicalement le paysage du développement web. Elle ne remplace pas les développeurs, mais les augmente en automatisant les tâches répétitives, en accélérant la création de code et en ouvrant de nouvelles possibilités créatives. En tant que développeur, il est essentiel de rester informé de ces évolutions pour adapter ses pratiques et tirer parti de ces nouveaux outils.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="epreuve-e4" class="section">
+            <div class="container">
+                <h2 class="section-title">Épreuve E4 - Tableau de Synthèse 🎓</h2>
+                <p class="section-description">Conception et développement d'applications - BTS SIO Option SLAM</p>
+                
+                <div class="epreuve-intro">
+                    <h3>Tableau de Synthèse des Compétences</h3>
+                    <p>Ce tableau de synthèse présente l'ensemble des compétences acquises et mises en œuvre durant ma formation BTS SIO option SLAM. Il constitue un document de référence pour l'épreuve E4 "Conception et développement d'applications".</p>
+                </div>
+
+                <div class="tableau-synthese">
+                    <div class="tableau-description">
+                        <h3>📊 Présentation du tableau</h3>
+                        <p>Le tableau de synthèse ci-contre récapitule :</p>
+                        <ul class="synthese-list">
+                            <li><strong>Les projets réalisés</strong> durant ma formation</li>
+                            <li><strong>Les compétences techniques</strong> développées</li>
+                            <li><strong>Les contextes professionnels</strong> expérimentés</li>
+                        </ul>
+
+                        <h3>🎯 Objectifs pédagogiques</h3>
+                        <div class="objectifs-grid">
+                            <div class="objectif-card">
+                                <h4>💻 Développement</h4>
+                                <p>Concevoir et développer des solutions applicatives</p>
+                            </div>
+                            <div class="objectif-card">
+                                <h4>📋 Gestion</h4>
+                                <p>Gérer et organiser les données</p>
+                            </div>
+                            <div class="objectif-card">
+                                <h4>🔧 Maintenance</h4>
+                                <p>Assurer la maintenance et l'évolution</p>
+                            </div>
+                            <div class="objectif-card">
+                                <h4>📈 Optimisation</h4>
+                                <p>Optimiser les performances</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tableau-image">
+                        <h3>📋 Mon Tableau de Synthèse</h3>
+                        <div class="image-container">
+                            <img src="Epreuve E4/Tableau de synthèse.png" alt="Tableau de Synthèse E4" class="tableau-screenshot" onclick="openModal()">
+                            <div class="image-overlay">
+                                <p>Cliquez pour agrandir</p>
+                            </div>
+                        </div>
+                        <p class="image-caption">Tableau récapitulatif de mes compétences et réalisations</p>
+                    </div>
+                </div>
+
+                <div class="competences-evaluees">
+                    <h3>📚 Compétences évaluées dans l'épreuve E4</h3>
+                    <div class="competences-grid">
+                        <div class="competence-bloc">
+                            <h4>C4.1</h4>
+                            <h5>Concevoir et développer une solution applicative</h5>
+                            <p>Analyse des besoins, conception de l'architecture, développement de l'application</p>
+                        </div>
+                        <div class="competence-bloc">
+                            <h4>C4.2</h4>
+                            <h5>Assurer la maintenance corrective ou évolutive</h5>
+                            <p>Maintenance du code, corrections de bugs, ajout de nouvelles fonctionnalités</p>
+                        </div>
+                        <div class="competence-bloc">
+                            <h4>C5.1</h4>
+                            <h5>Gérer les données</h5>
+                            <p>Conception de bases de données, optimisation des requêtes, sécurisation des données</p>
+                        </div>
+                        <div class="competence-bloc">
+                            <h4>C5.2</h4>
+                            <h5>Organiser et exploiter les données</h5>
+                            <p>Structuration des données, création de rapports, analyse des performances</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stage-presentation">
+                    <h3>🏢 Présentation de l'entreprise du stage de première année</h3>
+                    
+                    <div class="entreprise-header">
+                        <div class="entreprise-info">
+                            <h4>Heracles Agency</h4>
+                            <p class="entreprise-slogan">"Le Partenaire de votre croissance digitale"</p>
+                            <p class="entreprise-url">🌐 <a href="https://www.heracles.agency" target="_blank" rel="noopener">www.heracles.agency</a></p>
+                        </div>
+                    </div>
+
+                    <div class="entreprise-content">
+                        <div class="entreprise-description">
+                            <h5>📋 Description de l'entreprise</h5>
+                            <p>Heracles Agency est une <strong>agence d'acquisition spécialisée en paid social et production créative</strong>. L'entreprise accompagne des marques leaders dans toute l'Europe et délivre des résultats exceptionnels grâce à la publicité payante, sans jamais négliger la croissance à long terme.</p>
+                            
+                            <p>Heracles ne se positionne pas comme une agence traditionnelle, mais comme <strong>une extension de l'équipe marketing</strong> de ses clients, avec un objectif clair : <em>vendre plus, plus vite</em>.</p>
+                        </div>
+
+                        <div class="entreprise-secteur">
+                            <h5>🎯 Secteur d'activité</h5>
+                            <ul class="secteur-list">
+                                <li><strong>Marketing Digital</strong> - Publicité payante multiplateforme</li>
+                                <li><strong>Creative Performance Marketing</strong> - Production de contenu publicitaire</li>
+                                <li><strong>Growth Consulting</strong> - Conseil en croissance digitale</li>
+                                <li><strong>E-commerce</strong> - Spécialisé dans l'acquisition client rentable</li>
+                            </ul>
+                        </div>
+
+                        <div class="entreprise-services">
+                            <h5>⚙️ Services proposés</h5>
+                            <div class="services-grid">
+                                <div class="service-item">
+                                    <h6>📱 Paid Media Management</h6>
+                                    <p>Stratégies publicitaires sur Meta, TikTok, Google Ads, Pinterest, Snapchat</p>
+                                </div>
+                                <div class="service-item">
+                                    <h6>🎨 Performance Creative</h6>
+                                    <p>Production de vidéos UGC, hooks, storytelling produit avec systèmes créatifs IA</p>
+                                </div>
+                                <div class="service-item">
+                                    <h6>📈 Growth Consulting</h6>
+                                    <p>Planification de croissance, optimisation LTV, gestion des flux marketing</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="entreprise-philosophie">
+                            <h5>💡 Philosophie d'entreprise</h5>
+                            <div class="philosophie-items">
+                                <div class="philosophie-item">
+                                    <h6>🎯 Le pilotage au ROAS est un poison</h6>
+                                    <p>Focus sur le coût d'acquisition client réel et la rentabilité long terme</p>
+                                </div>
+                                <div class="philosophie-item">
+                                    <h6>👑 Creative is king</h6>
+                                    <p>Seules les bonnes créations captent l'attention et génèrent des ventes</p>
+                                </div>
+                                <div class="philosophie-item">
+                                    <h6>⚡ Simplicité > Complexité</h6>
+                                    <p>Approche simplifiée et claire pour une exécution performante</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="entreprise-clients">
+                            <h5>🤝 Clientèle</h5>
+                            <p>Heracles travaille avec <strong>+40 équipes marketing</strong> de marques ambitieuses, principalement en :</p>
+                            <ul class="clients-list">
+                                <li>E-commerce et retail en ligne</li>
+                                <li>Services digitaux et SaaS</li>
+                                <li>Info-produits et formation</li>
+                                <li>Marques de consommation européennes</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="stage-apport">
+                        <h5>🎓 Apport du stage pour ma formation</h5>
+                        <p>Ce stage chez Heracles Agency m'a permis de découvrir le monde du <strong>marketing digital</strong> et de la <strong>publicité en ligne</strong>, secteurs en pleine croissance. J'ai pu observer et comprendre :</p>
+                        <div class="apport-grid">
+                            <div class="apport-item">
+                                <i class="fas fa-code"></i>
+                                <span>Les technologies web utilisées dans le marketing digital</span>
+                            </div>
+                            <div class="apport-item">
+                                <i class="fas fa-database"></i>
+                                <span>La gestion et l'analyse de données publicitaires</span>
+                            </div>
+                            <div class="apport-item">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Les outils de tracking et d'optimisation des performances</span>
+                            </div>
+                            <div class="apport-item">
+                                <i class="fas fa-users"></i>
+                                <span>Le travail en équipe dans un environnement agile</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact ✉️</h2>
+                <h3 class="contact-subtitle">ENVOYER MOI UN MESSAGE</h3>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h4>Localisation :</h4>
+                            <p>France</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Email :</h4>
+                            <p>clement.taramini98@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Disponibilité :</h4>
+                            <p>Ouvert aux opportunités</p>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Votre email*" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Sujet*" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Votre message*" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Envoyer un message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal pour agrandir l'image -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright 2024 © <strong>TARAMINI Clément</strong></p>
+        </div>
+    </footer>
+
+    <script>
+        // Fonctions globales pour la modal
+        function openModal() {
+            console.log('Ouverture de la modal');
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const modalCaption = document.getElementById('modalCaption');
+            const tableauImage = document.querySelector('.tableau-screenshot');
+            
+            if (modal && modalImg && modalCaption && tableauImage) {
+                modal.style.display = 'block';
+                modalImg.src = tableauImage.src;
+                modalCaption.textContent = tableauImage.alt;
+                console.log('Modal ouverte avec succès');
+            } else {
+                console.error('Éléments manquants pour ouvrir la modal');
+            }
+        }
+
+        function closeModal() {
+            console.log('Fermeture de la modal');
+            const modal = document.getElementById('imageModal');
+            if (modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        // Attendre que le DOM soit entièrement chargé
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('imageModal');
+            const closeBtn = document.querySelector('.close-modal');
+
+            // Fermer avec la croix
+            if (closeBtn) {
+                closeBtn.onclick = closeModal;
+            }
+
+            // Fermer en cliquant en dehors de l'image
+            if (modal) {
+                modal.onclick = function(event) {
+                    if (event.target === modal) {
+                        closeModal();
+                    }
+                };
+            }
+
+            // Fermer avec la touche Échap
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    closeModal();
+                }
+            });
+        });
+
+        // Smooth scrolling pour la navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Filtres des projets
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Retirer la classe active de tous les boutons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Ajouter la classe active au bouton cliqué
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Animation au scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+
+        function toggleTheme(themeId) {
+            const content = document.getElementById(themeId);
+            const toggle = content.previousElementSibling.querySelector('.theme-toggle');
+            
+            if (content.style.display === 'none' || content.style.display === '') {
+                content.style.display = 'block';
+                content.classList.add('active');
+                toggle.innerHTML = '−';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.style.display = 'none';
+                content.classList.remove('active');
+                toggle.innerHTML = '+';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+    </script>
+</body>
+</html>
